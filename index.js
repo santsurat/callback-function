@@ -50,19 +50,19 @@
 
 console.log("start");
 
-document.getElementById("btn")
-.addEventListener("click" , function cb() {
-    console.log("callbck");
-});
+// document.getElementById("btn")
+// .addEventListener("click" , function cb() {
+//     console.log("callbck");
+// });
 
 
-setTimeout(function cbt() {
-    console.log("cb setTimeout");
-}, 5000);
+// setTimeout(function cbt() {
+//     console.log("cb setTimeout");
+// }, 5000);
 
-// fetch("https://api.netflix.com").then(function cbf(){
-//     console.log("cb netflix");
-// })
+// // fetch("https://api.netflix.com").then(function cbf(){
+// //     console.log("cb netflix");
+// // })
 
 
 console.log("End");
